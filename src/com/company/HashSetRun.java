@@ -24,7 +24,7 @@ public class HashSetRun {
         }
 
 //3. Write a Java program to get the number of elements in a hash set.
-        System.out.println("\n\n3. Java program to get the number of elements in a hash set:\n" + colorsSet);
+        System.out.println("\n\n3. Java program to get the number of elements in a hash set:\n" + colorsSet.size());
 
 //4. Write a Java program to empty an hash set.
         colorsSet.removeAll(colorsSet);
