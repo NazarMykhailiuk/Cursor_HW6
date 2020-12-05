@@ -16,10 +16,9 @@ public class ArrayListRun {
 
 //2. Write a Java program to iterate through all elements in a array list.
         System.out.print("\n2. Write a Java program to iterate through all elements in a array list: \n");
-        Iterator<String> iter = colors.iterator();
-        while (iter.hasNext()) {
+        for (String color : colors) {
 
-            System.out.print(iter.next() + " ");
+            System.out.print(color + " ");
         }
 
 //3. Write a Java program to insert an element into the array list at the first position.
