@@ -18,9 +18,8 @@ public class HashSetRun {
 
 //2. Write a Java program to iterate through all elements in a hash list.
         System.out.println("\n2. Write a Java program to iterate through all elements in a hash list.");
-        Iterator<String> p = colorsSet.iterator();
-        while (p.hasNext()) {
-            System.out.print(p.next() + ", ");
+        for (String s : colorsSet) {
+            System.out.print(s + ", ");
         }
 
 //3. Write a Java program to get the number of elements in a hash set.
